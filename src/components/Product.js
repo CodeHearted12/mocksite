@@ -17,7 +17,7 @@ const Product = (props) => {
         </div>
       </div>
       <div style={{"text-align":"center", "padding-top":"20px"}}>
-        <a href="/products" >Back to Store</a>
+        <a href="/products" >To The Store</a>
       </div>
     </div>
   )

@@ -7,6 +7,7 @@ class Contact extends Component {
         email: "codehearted12@gmail.com",
     phone: "407-675-1775",
     Location: "Orlando, FL"
+
   }
 }
 render() {

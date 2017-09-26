@@ -11,4 +11,4 @@ store.subscribe( ()=> {
 store.dispatch({type: '@@INIT'})
 store.dispatch(setValue(0))
 
-export default myStore
+export default myStore;

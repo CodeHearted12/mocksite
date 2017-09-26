@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom'
 import '../styles/App.css';
+//import characters from '../Data/characters'
 
 class BaseLayout extends Component {
 
@@ -25,20 +26,22 @@ class BaseLayout extends Component {
                       </div>
                       <div className="header">
                       <div className="title">
-                      <img id="zombies_logo" src="http://cocland.com/wp-content/uploads/2014/06/clash-of-clans-world.jpg" alt="logo" width="450"/>
+                      <img id="clash" src="http://cocland.com/wp-content/uploads/2014/06/clash-of-clans-world.jpg" alt="logo" width="450"/>
+
                       </div>
                      </div>
                     </div>
-                 <div style={{"background-color":"##88f7f2"}}>
+                 <div style={{"background-color":""}}>
                      {this.props.children}
                  </div>
                   </div>
                   <div className="footer">
-                    <footer>Footer</footer>
+                    <footer>Bottom</footer>
                       </div>
                       </div>
                           )
                         }
+
                       }
 
                     export default (BaseLayout);

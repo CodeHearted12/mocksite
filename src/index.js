@@ -11,7 +11,7 @@ import Home from "./components/Home"
 import thatwork from "./components/thatwork"
 import Product from "./components/Product"
 import Contact from './components/Contact'
-
+import mywork from './components/mywork'
 
 
 
@@ -25,6 +25,7 @@ ReactDOM.render(
         <Route path="/contact" component={Contact} />
         <Route exact path="/product" component={Product}/>
         <Route path="/product/:id" component={thatwork}/>
+        <Route exact path="/products" component={mywork}/>
         </Switch>
         </BaseLayout>
         </BrowserRouter>
