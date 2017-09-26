@@ -8,8 +8,8 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import BaseLayout from "./components/BaseLayout"
 import About from "./components/About"
 import Home from "./components/Home"
-import showProduct from "./components/showProduct"
-import Products from "./components/Products"
+import thatwork from "./components/thatwork"
+import Product from "./components/Product"
 import Contact from './components/Contact'
 
 
@@ -23,8 +23,8 @@ ReactDOM.render(
         <Route path="/home" component={Home} />
         <Route exact path="/" component={About}/>
         <Route path="/contact" component={Contact} />
-        <Route exact path="/products" component={Products}/>
-        <Route path="/products/:id" component={showProduct}/>
+        <Route exact path="/product" component={Product}/>
+        <Route path="/product/:id" component={thatwork}/>
         </Switch>
         </BaseLayout>
         </BrowserRouter>
@@ -33,5 +33,5 @@ ReactDOM.render(
 
 
 
-  <App />, document.getElementById('root'));
+  <App />, document.getElementById('root');
 registerServiceWorker();

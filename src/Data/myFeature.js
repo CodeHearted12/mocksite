@@ -1,32 +1,26 @@
-const features =[
+const myFeature =[
   {
      id: 1,
-     name: "Coupon Clipper",
-     img: "https://i.imgur.com/wbEWfVy.png",
-     price: "$100.00",
-     description: "The next purchase you make will cost you $0"
+     name: "Elixer!",
+     img: "http://img2.wikia.nocookie.net/__cb20130216214954/clashofclans/images/9/9f/Elixir_Collector11.png",
+     price: "$20.00: 500,000 Elixer",
+     description: "Build troops, Upgrade troops, Upgrade buildings!"
    },
    {
      id: 2,
-     name: "Deaths Party",
-     img: "http://i.imgur.com/dAbzdix.png",
-     price: "$500.00",
-     description: "Spawn an Instakill power up. "
+     name: "Gold",
+     img: "http://4.bp.blogspot.com/-ickMQg-J4co/Ublx6fgQPhI/AAAAAAAAAfc/J5juDwWxxD0/s400/Clash+of+Clans+Gold+Storage.png",
+     price: "$10.00: 1,000,000 Gold",
+     description: "Buy whatever you want! "
    },
    {
      id: 3,
-     name: "Reanimated",
-     img: "http://i.imgur.com/5v669mx.png",
-     price: "$1000.00",
-     description: 'Instantly self-revive after entering last stand.'
+     name: "Dark Elixer",
+     img: "http://vignette3.wikia.nocookie.net/clashofclans/images/4/4b/Dark_Elixir_Storage6.png/revision/latest?cb=20130217230638",
+     price: "$15.00: 1,500,000",
+     description: 'Build your Empire!'
    },
-   {
-     id:4,
-     name:"Dragon Breath",
-     img:"http://i.imgur.com/hMoEPgR.png",
-     price:"$200.00",
-     description:"Use the F-Spar Torch for 30 seconds with infinite ammo. "
-   }
+
  ]
 
- export default features
+ export default myFeature
